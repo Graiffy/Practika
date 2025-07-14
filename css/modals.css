@@ -1,0 +1,56 @@
+#query-modal .modal-content {
+  max-width: 800px;
+}
+
+#query-modal textarea {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+/* Модальное окно логов */
+#log-modal .modal-content {
+  max-width: 700px;
+}
+
+/* Модальное окно опций */
+#option-modal .modal-content {
+  max-width: 600px;
+}
+
+/* Модальное окно временных платежей */
+#temporary-modal .modal-content {
+  max-width: 700px;
+}
+
+#temporary-json {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+/* Модальное окно системных настроек */
+#setting-modal .modal-content {
+  max-width: 600px;
+}
+
+/* Стили для JSON данных в таблице */
+.json-data {
+  font-family: monospace;
+  font-size: 13px;
+  max-width: 400px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* Адаптивность модальных окон */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+    padding: 15px;
+  }
+  
+  #query-modal .modal-content,
+  #log-modal .modal-content,
+  #temporary-modal .modal-content {
+    max-width: 95%;
+  }
+}
